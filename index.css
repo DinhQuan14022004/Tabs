@@ -1,0 +1,38 @@
+.container{
+    width: 50%;
+    border: solid;
+    justify-self: center;
+    border-radius: 35px;
+
+}
+.text{
+    margin-inline:40px;
+}
+.tabs{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.tab:hover {
+  background: #bbb;
+}
+
+.tab-content{
+    width: 90%;
+    color: white;
+    background-color: black;
+    justify-self: center;
+    border-radius: 15px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin-bottom: 20px;
+}
+.tab-content.active{
+    display: flex;
+}
+.tab.active{
+  text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer> </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tabs">
+            <p class="tab active" aria-label="tab1"><b>First Tab</b></p>
+            <p class="tab" aria-label="tab2"><b>Second Tab</b></p>
+            <p class="tab" aria-label="tab3"><b>Third Tab</b></p>
+            <p class="tab" aria-label="tab4"><b>Fourth Tab</b></p>
+        </div>
+
+        <p class="text"><b>Clicking each tab should hide the content of the other tab and show the content of clicked
+                tab.By default,enable the first tab</b></p>
+        <div id="tab1" class="tab-content active">
+            <p>First Tab content to be displayed here.</p>
+        </div>
+        <div id="tab2" class="tab-content ">
+            <p>Second Tab content to be displayed here.</p>
+        </div>
+        <div id="tab3" class="tab-content">
+            <p>Third Tab content to be displayed here.</p>
+        </div>
+        <div id="tab4" class="tab-content">
+            <p>Fourth Tab content to be displayed here.</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
